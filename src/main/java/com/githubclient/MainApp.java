@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 public class MainApp extends Application {
 
-		/**
+    /**
      * Метод start вызывается при запуске JavaFX-приложения.
      * Он инициализирует пользовательский интерфейс и отображает главное окно.
      *
