@@ -10,7 +10,7 @@ public class MainApp extends Application {
 
 		/**
      * Метод start вызывается при запуске JavaFX-приложения.
-     * 
+     * Он инициализирует пользовательский интерфейс и отображает главное окно.
      *
      * @param primaryStage главное окно приложения
      * @throws Exception если произойдет ошибка при загрузке FXML-файла
