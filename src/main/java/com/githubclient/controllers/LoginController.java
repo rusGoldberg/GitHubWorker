@@ -33,3 +33,35 @@ public class LoginController {
     public LoginController() {
         this.gitHubService = new GitHubService();
     }
+
+    /**
+     * Метод, вызываемый при нажатии на кнопку входа.
+     * Обрабатывает процесс аутентификации пользователя.
+     *
+     * @param event событие нажатия на кнопку
+     */
+    @FXML
+    public void handleLogin(ActionEvent event) {
+        // Получаем введенные пользователем имя и пароль.
+        String username = usernameField.getText();
+        String password = passwordField.getText();
+
+        // Проверяем корректность введенных данных.
+        if (username.isEmpty() || password.isEmpty()) {
+            errorMessage.setText("Please enter both username and password.");
+            return;
+        }
+
+        // Выполняем аутентификацию через GitHubService.
+        boolean isAuthenticated = gitHubService.authenticate(username, password);
+
+        if (isAuthenticated) {
+            // Если аутентификация успешна, переходим к следующему экрану (например, списку репозиториев).
+            // Здесь можно добавить логику для перехода на другой экран.
+            errorMessage.setText("Login successful!");
+        } else {
+            // Если аутентификация не удалась, отображаем сообщение об ошибке.
+            errorMessage.setText("Invalid username or password.");
+        }
+    }
+}
