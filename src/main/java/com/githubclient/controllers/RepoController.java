@@ -18,3 +18,11 @@ public class RepoController {
 
     // Список репозиториев, отображаемых в ListView.
     private ObservableList<Repository> repositories;
+    /**
+     * Конструктор контроллера.
+     * Инициализирует объект GitHubService и список репозиториев.
+     */
+    public RepoController() {
+        this.gitHubService = new GitHubService();
+        this.repositories = FXCollections.observableArrayList();
+    }
