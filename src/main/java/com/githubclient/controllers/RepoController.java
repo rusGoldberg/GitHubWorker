@@ -26,3 +26,16 @@ public class RepoController {
         this.gitHubService = new GitHubService();
         this.repositories = FXCollections.observableArrayList();
     }
+
+    /**
+     * Метод для инициализации контроллера.
+     * Вызывается после загрузки FXML-файла.
+     */
+    @FXML
+    public void initialize() {
+        // Устанавливаем список репозиториев в ListView.
+        repoListView.setItems(repositories);
+
+        // Загружаем репозитории пользователя.
+        loadRepositories();
+    }
