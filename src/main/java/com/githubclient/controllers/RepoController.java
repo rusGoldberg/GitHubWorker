@@ -39,3 +39,12 @@ public class RepoController {
         // Загружаем репозитории пользователя.
         loadRepositories();
     }
+
+    /**
+     * Метод для загрузки репозиториев пользователя.
+     */
+    private void loadRepositories() {
+        // Получаем список репозиториев через GitHubService.
+        repositories.addAll(gitHubService.getUserRepositories());
+    }
+}
