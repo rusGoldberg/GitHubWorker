@@ -41,4 +41,12 @@ public class IssueController {
         loadIssues();
     }
 
+    /**
+     * Метод для загрузки issues репозитория.
+     */
+    private void loadIssues() {
+        // Получаем список issues через GitHubService.
+        issues.addAll(gitHubService.getRepositoryIssues());
+    }
+}
 
