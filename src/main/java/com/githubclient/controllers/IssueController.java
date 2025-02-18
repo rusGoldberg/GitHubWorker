@@ -28,4 +28,17 @@ public class IssueController {
         this.issues = FXCollections.observableArrayList();
     }
 
+    /**
+     * Метод для инициализации контроллера.
+     * Вызывается после загрузки FXML-файла.
+     */
+    @FXML
+    public void initialize() {
+        // Устанавливаем список issues в ListView.
+        issueListView.setItems(issues);
+
+        // Загружаем issues репозитория.
+        loadIssues();
+    }
+
 
