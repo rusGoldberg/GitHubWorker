@@ -66,4 +66,19 @@ public class Repository {
         this.owner = owner;
     }
 
+    /**
+     * Возвращает строковое представление объекта Repository.
+     *
+     * @return строковое представление объекта
+     */
+    @Override
+    public String toString() {
+        return "Repository{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", owner=" + owner +
+                '}';
+    }
+}
 
