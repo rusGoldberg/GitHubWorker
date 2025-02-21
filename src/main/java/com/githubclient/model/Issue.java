@@ -10,3 +10,10 @@ public class Issue {
 
     // Заголовок issue.
     private String title;
+
+    // Описание issue.
+    private String body;
+
+    // Пользователь, создавший issue.
+    private User creator;
+
