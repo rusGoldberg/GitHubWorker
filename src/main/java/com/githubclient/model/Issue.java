@@ -66,3 +66,19 @@ public class Issue {
         this.creator = creator;
     }
 
+    /**
+     * Возвращает строковое представление объекта Issue.
+     *
+     * @return строковое представление объекта
+     */
+    @Override
+    public String toString() {
+        return "Issue{" +
+                "id='" + id + '\'' +
+                ", title='" + title + '\'' +
+                ", body='" + body + '\'' +
+                ", creator=" + creator +
+                '}';
+    }
+}
+
