@@ -5,4 +5,10 @@ package com.githubclient.model;
  */
 public class User {
 
+    // Идентификатор пользователя.
+    private String id;
+
+    // Имя пользователя.
+    private String username;
+
 
