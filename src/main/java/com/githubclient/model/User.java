@@ -40,3 +40,16 @@ public class User {
         this.username = username;
     }
 
+    /**
+     * Возвращает строковое представление объекта User.
+     *
+     * @return строковое представление объекта
+     */
+    @Override
+    public String toString() {
+        return "User{" +
+                "id='" + id + '\'' +
+                ", username='" + username + '\'' +
+                '}';
+    }
+}
