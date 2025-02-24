@@ -11,4 +11,15 @@ public class User {
     // Имя пользователя.
     private String username;
 
+    /**
+     * Конструктор для создания нового объекта User.
+     *
+     * @param id       идентификатор пользователя
+     * @param username имя пользователя
+     */
+    public User(String id, String username) {
+        this.id = id;
+        this.username = username;
+    }
+
 
