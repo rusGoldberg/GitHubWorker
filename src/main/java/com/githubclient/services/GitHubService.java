@@ -48,4 +48,30 @@ public class GitHubService {
      *
      * @return список репозиториев пользователя
      */
+    public List<Repository> getUserRepositories() {
+        List<Repository> repositories = new ArrayList<>();
+
+        // Пример URL для получения репозиториев пользователя.
+        String url = config.getApiUrl() + "/user/repos";
+
+        // Выполняем GET-запрос к API GitHub.
+        String response = httpClient.get(url, config.getAuthToken());
+
+        // Парсим JSON-ответ.
+        JSONArray jsonArray = new JSONArray(response);
+        for (int i = 0; i < jsonArray.length(); i++) {
+            JSONObject jsonObject = jsonArray.getJSONObject(i);
+            Repository repo = new Repository(
+                jsonObject.getString("id"),
+                jsonObject.getString("name"),
+                jsonObject.getString("description"),
+                new User(jsonObject.getJSONObject("owner").getString("id"),
+                          jsonObject.getJSONObject("owner").getString("login"))
+            );
+            repositories.add(repo);
+        }
+
+        return repositories;
+    }
+
 
