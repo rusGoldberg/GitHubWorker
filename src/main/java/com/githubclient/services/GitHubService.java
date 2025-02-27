@@ -74,4 +74,36 @@ public class GitHubService {
         return repositories;
     }
 
+    /**
+     * Метод для получения списка issues репозитория.
+     *
+     * @return список issues репозитория
+     */
+    public List<Issue> getRepositoryIssues() {
+        List<Issue> issues = new ArrayList<>();
+
+        // Пример URL для получения issues репозитория.
+        String url = config.getApiUrl() + "/repos/owner/repo/issues";
+
+        // Выполняем GET-запрос к API GitHub.
+        String response = httpClient.get(url, config.getAuthToken());
+
+        // Парсим JSON-ответ.
+        JSONArray jsonArray = new JSONArray(response);
+        for (int i = 0; i < jsonArray.length(); i++) {
+            JSONObject jsonObject = jsonArray.getJSONObject(i);
+            Issue issue = new Issue(
+                jsonObject.getString("id"),
+                jsonObject.getString("title"),
+                jsonObject.getString("body"),
+                new User(jsonObject.getJSONObject("user").getString("id"),
+                         jsonObject.getJSONObject("user").getString("login"))
+            );
+            issues.add(issue);
+        }
+
+        return issues;
+    }
+}
+
 
