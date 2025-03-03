@@ -22,3 +22,13 @@ public class Config {
         this.authToken = authToken;
     }
 
+    // Геттеры для полей класса.
+
+    public String getApiUrl() {
+        return apiUrl;
+    }
+
+    public String getAuthToken() {
+        return authToken;
+    }
+}
