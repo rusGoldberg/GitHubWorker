@@ -1,1 +1,7 @@
+/* Основные стили для приложения */
+.root {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+    -fx-base: #f0f0f0;
+}
 
