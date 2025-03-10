@@ -18,4 +18,9 @@
             <AppenderRef ref="File"/>
         </Root>
 
-
+        <!-- Логгер для пакета com.githubclient -->
+        <Logger name="com.githubclient" level="debug" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>
+    </Loggers>
+</Configuration>
