@@ -1,3 +1,1 @@
-/**
- * тест, представляющий issue в репозитории на GitHub.
- */
+package com.githubclient.controllers;
