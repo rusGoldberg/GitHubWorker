@@ -12,3 +12,11 @@ class IssueControllerTest {
     void setUp() {
         issueController = new IssueController();
     }
+
+    @Test
+    void testInitialize() {
+        // Вызываем метод initialize и проверяем, что список issues не пустой
+        issueController.initialize();
+        assertFalse(issueController.getIssues().isEmpty());
+    }
+}
