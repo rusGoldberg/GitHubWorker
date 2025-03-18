@@ -3,3 +3,13 @@ package com.githubclient.services;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+
+class GitHubServiceTest {
+
+    private GitHubService gitHubService;
+
+    @BeforeEach
+    void setUp() {
+        Config config = new Config("https://api.github.com", "token");
+        gitHubService = new GitHubService(config);
+    }
