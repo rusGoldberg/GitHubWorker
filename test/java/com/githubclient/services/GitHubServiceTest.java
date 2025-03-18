@@ -13,3 +13,9 @@ class GitHubServiceTest {
         Config config = new Config("https://api.github.com", "token");
         gitHubService = new GitHubService(config);
     }
+
+    @Test
+    void testAuthenticate() {
+        // Проверяем метод аутентификации
+        assertTrue(gitHubService.authenticate("validUser", "validPassword"));
+    }
