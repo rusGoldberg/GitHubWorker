@@ -19,3 +19,16 @@ class GitHubServiceTest {
         // Проверяем метод аутентификации
         assertTrue(gitHubService.authenticate("validUser", "validPassword"));
     }
+
+    @Test
+    void testGetUserRepositories() {
+        // Проверяем, что список репозиториев не пустой
+        assertFalse(gitHubService.getUserRepositories().isEmpty());
+    }
+
+    @Test
+    void testGetRepositoryIssues() {
+        // Проверяем, что список issues не пустой
+        assertFalse(gitHubService.getRepositoryIssues().isEmpty());
+    }
+}
