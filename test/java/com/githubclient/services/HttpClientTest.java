@@ -12,3 +12,12 @@ class HttpClientTest {
     void setUp() {
         httpClient = new HttpClient();
     }
+
+    @Test
+    void testGet() {
+        // Проверяем, что метод get возвращает непустой ответ
+        String response = httpClient.get("https://api.github.com", "token");
+        assertNotNull(response);
+        assertFalse(response.isEmpty());
+    }
+}
