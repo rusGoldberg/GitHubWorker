@@ -1,1 +1,1 @@
-
+package com.githubclient.model;
