@@ -21,3 +21,10 @@ class RepositoryTest {
         assertEquals("A test repository", repository.getDescription());
         assertEquals("testUser", repository.getOwner().getUsername());
     }
+
+    @Test
+    void testSetters() {
+        repository.setName("NewName");
+        assertEquals("NewName", repository.getName());
+    }
+}
