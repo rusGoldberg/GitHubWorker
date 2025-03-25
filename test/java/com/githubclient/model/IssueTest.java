@@ -21,3 +21,10 @@ class IssueTest {
         assertEquals("This is a test issue", issue.getBody());
         assertEquals("testUser", issue.getCreator().getUsername());
     }
+
+    @Test
+    void testSetters() {
+        issue.setTitle("New Title");
+        assertEquals("New Title", issue.getTitle());
+    }
+}
