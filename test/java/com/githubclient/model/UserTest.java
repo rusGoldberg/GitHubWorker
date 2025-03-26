@@ -13,3 +13,9 @@ class UserTest {
         user = new User("1", "testUser");
     }
 
+    @Test
+    void testGetters() {
+        assertEquals("1", user.getId());
+        assertEquals("testUser", user.getUsername());
+    }
+
