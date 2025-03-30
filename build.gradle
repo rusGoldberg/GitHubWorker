@@ -28,3 +28,7 @@ javafx {
 application {
     mainClassName = 'com.githubclient.MainApp'
 }
+
+test {
+    useJUnitPlatform()
+}
