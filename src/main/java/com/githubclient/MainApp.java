@@ -56,4 +56,7 @@ public class MainApp extends Application {
 package com.githubclient;: Указывает, что этот класс находится в пакете com.githubclient.
 Импортируются необходимые классы из библиотеки JavaFX: Application, FXMLLoader, Parent, Scene, Stage.
 
+2. Класс MainApp:
+public class MainApp extends Application: Объявляет класс MainApp, который наследует от Application. Это делает его точкой входа для JavaFX-приложения.
+
 */
