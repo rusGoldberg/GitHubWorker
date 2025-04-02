@@ -59,4 +59,14 @@ package com.githubclient;: Указывает, что этот класс нах
 2. Класс MainApp:
 public class MainApp extends Application: Объявляет класс MainApp, который наследует от Application. Это делает его точкой входа для JavaFX-приложения.
 
+3. Метод start:
+
+public void start(Stage primaryStage) throws Exception: Этот метод вызывается при запуске приложения. Он принимает объект Stage, который представляет главное окно приложения.
+FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/githubclient/views/login.fxml"));: Создает объект FXMLLoader для загрузки FXML-файла, который описывает интерфейс.
+Parent root = loader.load();: Загружает FXML-файл и создает иерархию объектов JavaFX. Результат сохраняется в объекте Parent.
+primaryStage.setTitle("GitHub Client");: Устанавливает заголовок окна приложения.
+Scene scene = new Scene(root);: Создает новую сцену с корневым элементом, загруженным из FXML-файла.
+primaryStage.setScene(scene);: Устанавливает сцену в главное окно.
+primaryStage.show();: Отображает окно приложения.
+
 */
