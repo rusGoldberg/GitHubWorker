@@ -65,3 +65,11 @@ public class LoginController {
         }
     }
 }
+/*
+1. Пакет и импорт:
+package com.githubclient.controllers;: Указывает, что этот класс находится в пакете com.githubclient.controllers.
+Импортируются необходимые классы из библиотеки JavaFX: ActionEvent, FXML, Button, PasswordField, TextField, Text.
+Импортируется класс GitHubService для взаимодействия с API GitHub.
+
+
+*/
