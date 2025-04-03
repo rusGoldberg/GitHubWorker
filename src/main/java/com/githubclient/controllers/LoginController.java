@@ -77,4 +77,7 @@ package com.githubclient.controllers;: Указывает, что этот кл�
 @FXML private Button loginButton;: Кнопка для входа в систему, связанная с элементом интерфейса через аннотацию @FXML.
 @FXML private Text errorMessage;: Текстовое поле для отображения сообщений об ошибках, связанное с элементом интерфейса через аннотацию @FXML.
 
+3. Конструктор:
+public LoginController(): Конструктор, который инициализирует объект GitHubService для взаимодействия с API GitHub.
+
 */
