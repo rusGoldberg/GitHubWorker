@@ -71,5 +71,10 @@ package com.githubclient.controllers;: Указывает, что этот кл�
 Импортируются необходимые классы из библиотеки JavaFX: ActionEvent, FXML, Button, PasswordField, TextField, Text.
 Импортируется класс GitHubService для взаимодействия с API GitHub.
 
+2. Поля класса:
+@FXML private TextField usernameField;: Поле для ввода имени пользователя, связанное с элементом интерфейса через аннотацию @FXML.
+@FXML private PasswordField passwordField;: Поле для ввода пароля, связанное с элементом интерфейса через аннотацию @FXML.
+@FXML private Button loginButton;: Кнопка для входа в систему, связанная с элементом интерфейса через аннотацию @FXML.
+@FXML private Text errorMessage;: Текстовое поле для отображения сообщений об ошибках, связанное с элементом интерфейса через аннотацию @FXML.
 
 */
