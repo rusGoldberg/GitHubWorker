@@ -59,4 +59,8 @@ package com.githubclient.controllers;: Указывает, что этот кл�
 private GitHubService gitHubService;: Объект для взаимодействия с API GitHub.
 private ObservableList<Repository> repositories;: Список репозиториев, отображаемых в ListView.
 
+3. Конструктор:
+public RepoController(): Конструктор, который инициализирует объект GitHubService и список репозиториев.
+
+
 */
