@@ -66,5 +66,6 @@ public RepoController(): Конструктор, который инициали
 @FXML public void initialize(): Метод для инициализации контроллера, вызывается после загрузки FXML-файла.
 Устанавливает список репозиториев в ListView и загружает репозитории пользователя.
 
-
+5. Метод loadRepositories:
+private void loadRepositories(): Метод для загрузки репозиториев пользователя через GitHubService.
 */
