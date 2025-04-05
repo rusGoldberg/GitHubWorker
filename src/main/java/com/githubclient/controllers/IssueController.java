@@ -50,3 +50,10 @@ public class IssueController {
     }
 }
 
+/*
+1. Пакет и импорт:
+package com.githubclient.controllers;: Указывает, что этот класс находится в пакете com.githubclient.controllers.
+Импортируются необходимые классы из библиотеки JavaFX: FXML, ListView, FXCollections, ObservableList.
+Импортируются классы Issue и GitHubService для работы с данными и API.
+
+*/
