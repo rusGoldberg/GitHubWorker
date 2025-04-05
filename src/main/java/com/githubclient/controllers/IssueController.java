@@ -56,4 +56,10 @@ package com.githubclient.controllers;: Указывает, что этот кл�
 Импортируются необходимые классы из библиотеки JavaFX: FXML, ListView, FXCollections, ObservableList.
 Импортируются классы Issue и GitHubService для работы с данными и API.
 
+2. Поля класса:
+@FXML private ListView<Issue> issueListView;: Список для отображения issues, связанный с элементом интерфейса через аннотацию @FXML.
+private GitHubService gitHubService;: Объект для взаимодействия с API GitHub.
+private ObservableList<Issue> issues;: Список issues, отображаемых в ListView.
+
+
 */
