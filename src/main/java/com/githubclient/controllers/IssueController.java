@@ -64,5 +64,9 @@ private ObservableList<Issue> issues;: Список issues, отображаем
 3. Конструктор:
 public IssueController(): Конструктор, который инициализирует объект GitHubService и список issues.
 
+4. Метод initialize:
+@FXML public void initialize(): Метод для инициализации контроллера, вызывается после загрузки FXML-файла.
+Устанавливает список issues в ListView и загружает issues репозитория.
+
 
 */
