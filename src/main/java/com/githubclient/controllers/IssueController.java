@@ -61,5 +61,8 @@ package com.githubclient.controllers;: Указывает, что этот кл�
 private GitHubService gitHubService;: Объект для взаимодействия с API GitHub.
 private ObservableList<Issue> issues;: Список issues, отображаемых в ListView.
 
+3. Конструктор:
+public IssueController(): Конструктор, который инициализирует объект GitHubService и список issues.
+
 
 */
