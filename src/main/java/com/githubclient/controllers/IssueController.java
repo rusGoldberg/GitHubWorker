@@ -68,5 +68,8 @@ public IssueController(): Конструктор, который инициал�
 @FXML public void initialize(): Метод для инициализации контроллера, вызывается после загрузки FXML-файла.
 Устанавливает список issues в ListView и загружает issues репозитория.
 
+5.Метод loadIssues:
+private void loadIssues(): Метод для загрузки issues репозитория через GitHubService.
+
 
 */
