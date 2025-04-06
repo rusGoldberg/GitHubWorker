@@ -91,4 +91,7 @@ private String name;: Имя репозитория.
 private String description;: Описание репозитория.
 private User owner;: Владелец репозитория, представленный объектом User.
 
+3. Конструктор:
+public Repository(String id, String name, String description, User owner): Конструктор для создания нового объекта Repository с заданными параметрами.
+
 */
