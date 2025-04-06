@@ -97,5 +97,6 @@ public Repository(String id, String name, String description, User owner): Ко�
 4. Геттеры и сеттеры:
 Стандартные методы для получения и установки значений полей класса.
 
-5. 
+5. Метод toString:
+@Override public String toString(): Возвращает строковое представление объекта Repository, что полезно для отладки и логирования.
 */
