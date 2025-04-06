@@ -85,4 +85,10 @@ public class Repository {
 1. Пакет и импорт:
 package com.githubclient.model;: Указывает, что этот класс находится в пакете com.githubclient.model.
 
+2. Поля класса:
+private String id;: Идентификатор репозитория.
+private String name;: Имя репозитория.
+private String description;: Описание репозитория.
+private User owner;: Владелец репозитория, представленный объектом User.
+
 */
