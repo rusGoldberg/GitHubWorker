@@ -91,4 +91,8 @@ private String title;: Заголовок issue.
 private String body;: Описание issue.
 private User creator;: Пользователь, создавший issue, представленный объектом User.
 
+3. Конструктор:
+public Issue(String id, String title, String body, User creator): Конструктор для создания нового объекта Issue с заданными параметрами.
+
+
 */
