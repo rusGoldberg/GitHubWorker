@@ -85,5 +85,10 @@ public class Issue {
 1. Пакет и импорт:
 package com.githubclient.model;: Указывает, что этот класс находится в пакете com.githubclient.model.
 
+2. Поля класса:
+private String id;: Идентификатор issue.
+private String title;: Заголовок issue.
+private String body;: Описание issue.
+private User creator;: Пользователь, создавший issue, представленный объектом User.
 
 */
