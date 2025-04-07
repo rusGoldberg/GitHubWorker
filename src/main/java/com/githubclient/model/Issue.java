@@ -97,5 +97,6 @@ public Issue(String id, String title, String body, User creator): Констру
 4. Геттеры и сеттеры:
 Стандартные методы для получения и установки значений полей класса.
 
-
+5. Метод toString:
+@Override public String toString(): Возвращает строковое представление объекта Issue, что полезно для отладки и логирования.
 */
