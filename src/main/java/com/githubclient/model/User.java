@@ -61,6 +61,11 @@ package com.githubclient.model;: Указывает, что этот класс 
 private String id;: Идентификатор пользователя.
 private String username;: Имя пользователя.
 
+3. Конструктор:
+public User(String id, String username): Конструктор для создания нового объекта User с заданными параметрами.
+
+
+
 */
 
 
