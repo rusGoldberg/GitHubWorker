@@ -53,3 +53,10 @@ public class User {
                 '}';
     }
 }
+/*
+1. Пакет и импорт:
+package com.githubclient.model;: Указывает, что этот класс находится в пакете com.githubclient.model.
+
+*/
+
+
