@@ -124,4 +124,6 @@ public boolean authenticate(String username, String password): Метод для
 5. Метод getUserRepositories:
 public List<Repository> getUserRepositories(): Метод для получения списка репозиториев пользователя. Выполняет GET-запрос к API GitHub и парсит JSON-ответ.
 
+6. Метод getRepositoryIssues:
+public List<Issue> getRepositoryIssues(): Метод для получения списка issues репозитория. Выполняет GET-запрос к API GitHub и парсит JSON-ответ.
 */
