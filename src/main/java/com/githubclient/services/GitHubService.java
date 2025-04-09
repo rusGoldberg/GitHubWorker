@@ -111,4 +111,8 @@ public class GitHubService {
 package com.githubclient.services;: Указывает, что этот класс находится в пакете com.githubclient.services.
 Импортируются необходимые классы, включая модели данных (Repository, Issue, User) и утилитарные классы (HttpClient, Config).
 
+2. Поля класса:
+private HttpClient httpClient;: Объект для выполнения HTTP-запросов.
+private Config config;: Конфигурация для доступа к API GitHub.
+
 */
