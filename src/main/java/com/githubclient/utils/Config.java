@@ -39,4 +39,7 @@ package com.githubclient.utils;: Указывает, что этот класс 
 2. Поля класса:
 private String apiUrl;: Базовый URL для API GitHub.
 private String authToken;: Токен аутентификации для доступа к API GitHub.
+
+3. Конструктор:
+public Config(String apiUrl, String authToken): Конструктор для создания нового объекта Config с заданными параметрами.
 */
