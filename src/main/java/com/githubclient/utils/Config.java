@@ -35,4 +35,8 @@ public class Config {
 /*
 1. Пакет и импорт:
 package com.githubclient.utils;: Указывает, что этот класс находится в пакете com.githubclient.utils.
+
+2. Поля класса:
+private String apiUrl;: Базовый URL для API GitHub.
+private String authToken;: Токен аутентификации для доступа к API GitHub.
 */
