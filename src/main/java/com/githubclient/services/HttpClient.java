@@ -42,4 +42,7 @@ public class HttpClient {
 package com.githubclient.utils;: Указывает, что этот класс находится в пакете com.githubclient.utils.
 Импортируются необходимые классы для выполнения HTTP-запросов.
 
+2. Метод get:
+public String get(String urlString, String authToken): Метод для выполнения GET-запроса к указанному URL с использованием токена аутентификации.
+
 */
