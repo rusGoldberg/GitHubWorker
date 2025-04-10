@@ -32,3 +32,7 @@ public class Config {
         return authToken;
     }
 }
+/*
+1. Пакет и импорт:
+package com.githubclient.utils;: Указывает, что этот класс находится в пакете com.githubclient.utils.
+*/
