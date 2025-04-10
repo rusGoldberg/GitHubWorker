@@ -40,5 +40,6 @@ public class HttpClient {
 /*
 1. Пакет и импорт:
 package com.githubclient.utils;: Указывает, что этот класс находится в пакете com.githubclient.utils.
+Импортируются необходимые классы для выполнения HTTP-запросов.
 
 */
