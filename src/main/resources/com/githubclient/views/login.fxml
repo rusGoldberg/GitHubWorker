@@ -16,4 +16,5 @@
 /*
 1. Корневой элемент VBox:
 xmlns:fx="http://javafx.com/fxml/1": Объявление пространства имен для FXML.
+fx:controller="com.githubclient.controllers.LoginController": Указывает контроллер, который будет управлять этим интерфейсом.
 */
