@@ -18,4 +18,6 @@
 xmlns:fx="http://javafx.com/fxml/1": Объявление пространства имен для FXML.
 fx:controller="com.githubclient.controllers.LoginController": Указывает контроллер, который будет управлять этим интерфейсом.
 alignment="CENTER": Выравнивание элементов по центру.
+spacing="10.0": Расстояние между элементами.
+
 */
