@@ -20,4 +20,6 @@ fx:controller="com.githubclient.controllers.LoginController": Указывает
 alignment="CENTER": Выравнивание элементов по центру.
 spacing="10.0": Расстояние между элементами.
 
+2. Элементы интерфейса:
+<Text fx:id="errorMessage" style="-fx-text-fill: red;"/>: Текстовое поле для отображения сообщений об ошибках. Использует красный цвет текста.
 */
