@@ -9,5 +9,6 @@
 /*
 1. Корневой элемент VBox:
 fx:controller="com.githubclient.controllers.IssueController": Указывает контроллер, который будет управлять этим интерфейсом.
+alignment="CENTER": Выравнивание элементов по центру.
 
 */
