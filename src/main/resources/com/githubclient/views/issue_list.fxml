@@ -6,3 +6,8 @@
 <VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.githubclient.controllers.IssueController" alignment="CENTER" spacing="10.0">
     <ListView fx:id="issueListView"/>
 </VBox>
+/*
+1. Корневой элемент VBox:
+fx:controller="com.githubclient.controllers.IssueController": Указывает контроллер, который будет управлять этим интерфейсом.
+
+*/
