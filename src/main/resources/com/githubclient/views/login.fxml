@@ -22,6 +22,6 @@
 <!--2. Элементы интерфейса:-->
 <!--<Text fx:id="errorMessage" style="-fx-text-fill: red;"/>: Текстовое поле для отображения сообщений об ошибках. Использует красный цвет текста.-->
 <!--<TextField fx:id="usernameField" promptText="Username"/>: Поле для ввода имени пользователя с подсказкой.-->
-<PasswordField fx:id="passwordField" promptText="Password"/>: Поле для ввода пароля с подсказкой.
+<!--<PasswordField fx:id="passwordField" promptText="Password"/>: Поле для ввода пароля с подсказкой.-->
 <Button fx:id="loginButton" text="Login" onAction="#handleLogin"/>: Кнопка для входа в систему. При нажатии вызывает метод handleLogin в контроллере.
 */
