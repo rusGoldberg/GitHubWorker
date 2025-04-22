@@ -6,10 +6,10 @@
 <VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.githubclient.controllers.RepoController" alignment="CENTER" spacing="10.0">
     <ListView fx:id="repoListView"/>
 </VBox>
-<!--1. Корневой элемент VBox:
+<!--1. Корневой элемент VBox:-->
 fx:controller="com.githubclient.controllers.RepoController": Указывает контроллер, который будет управлять этим интерфейсом.
 alignment="CENTER": Выравнивание элементов по центру.
-spacing="10.0": Расстояние между элементами.-->
+<!--spacing="10.0": Расстояние между элементами.-->
 
 2. Элементы интерфейса:
 <ListView fx:id="repoListView"/>: Список для отображения репозиториев. Связан с контроллером через fx:id.
