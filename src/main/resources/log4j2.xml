@@ -42,3 +42,4 @@
         <!--<AppenderRef ref="File"/>: Ссылка на файловый аппендер.-->
     <!--Логгер для пакета com.githubclient:-->
         <!--<Logger name="com.githubclient" level="debug" additivity="false">: Уровень логирования для пакета com.githubclient.-->
+        <!--<AppenderRef ref="File"/>: Ссылка на файловый аппендер.-->
