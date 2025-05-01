@@ -40,3 +40,4 @@ class LoginControllerTest {
 /*2. Поля класса:*/
     /* private LoginController loginController;: Объект контроллера, который будет тестироваться.*/
 /*3. Метод setUp:*/
+    /* Аннотация @BeforeEach указывает, что этот метод будет выполняться перед каждым тестом. Инициализирует объект LoginController.*/
