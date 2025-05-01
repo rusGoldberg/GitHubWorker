@@ -38,3 +38,4 @@ class LoginControllerTest {
 /*1. Импорт:*/
     /* Импортируются необходимые классы из JUnit для написания тестов.*/
 /*2. Поля класса:*/
+    /* private LoginController loginController;: Объект контроллера, который будет тестироваться.*/
