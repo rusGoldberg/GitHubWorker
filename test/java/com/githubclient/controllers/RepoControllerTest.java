@@ -24,3 +24,4 @@ class RepoControllerTest {
     /*Импортируются необходимые классы из JUnit для написания тестов.*/
 /*2. Поля класса:*/
     /*private RepoController repoController;: Объект контроллера, который будет тестироваться.*/
+/*3. Метод setUp:*/
