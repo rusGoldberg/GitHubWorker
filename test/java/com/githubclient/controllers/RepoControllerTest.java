@@ -26,3 +26,4 @@ class RepoControllerTest {
     /*private RepoController repoController;: Объект контроллера, который будет тестироваться.*/
 /*3. Метод setUp:*/
     /*Аннотация @BeforeEach указывает, что этот метод будет выполняться перед каждым тестом. Инициализирует объект RepoController.*/
+/*4.Метод testInitialize:*/
