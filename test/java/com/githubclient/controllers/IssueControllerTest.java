@@ -26,3 +26,4 @@ class IssueControllerTest {
     /*private IssueController issueController;: Объект контроллера, который будет тестироваться.*/
 /*3.Метод setUp:*/
     /*Аннотация @BeforeEach указывает, что этот метод будет выполняться перед каждым тестом. Инициализирует объект IssueController.*/
+/*4.Метод testInitialize:*/
