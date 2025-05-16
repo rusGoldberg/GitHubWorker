@@ -24,3 +24,4 @@ class IssueControllerTest {
     /*Импортируются необходимые классы из JUnit для написания тестов.*/
 /*2.Поля класса:*/
     /*private IssueController issueController;: Объект контроллера, который будет тестироваться.*/
+/*3.Метод setUp:*/
