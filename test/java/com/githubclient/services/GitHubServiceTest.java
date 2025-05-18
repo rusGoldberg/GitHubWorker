@@ -32,3 +32,4 @@ class GitHubServiceTest {
         assertFalse(gitHubService.getRepositoryIssues().isEmpty());
     }
 }
+/*1.Импорт:*/
