@@ -36,3 +36,4 @@ class GitHubServiceTest {
     /*Импортируются необходимые классы из JUnit для написания тестов.*/
 /*2.Поля класса:*/
     /*private GitHubService gitHubService;: Объект сервиса, который будет тестироваться.*/
+/*3.Метод setUp:*/
