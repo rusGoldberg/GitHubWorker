@@ -38,3 +38,4 @@ class GitHubServiceTest {
     /*private GitHubService gitHubService;: Объект сервиса, который будет тестироваться.*/
 /*3.Метод setUp:*/
     /*Аннотация @BeforeEach указывает, что этот метод будет выполняться перед каждым тестом. Инициализирует объект GitHubService с конфигурацией.*/
+/*4.Метод testAuthenticate:*/
