@@ -43,3 +43,4 @@ class GitHubServiceTest {
 /*5.Метод testGetUserRepositories:*/
     /*Проверяет, что метод возвращает непустой список репозиториев.*/
 /*6.Метод testGetRepositoryIssues:*/
+    /*Проверяет, что метод возвращает непустой список issues.*/
