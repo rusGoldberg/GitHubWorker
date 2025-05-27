@@ -27,3 +27,4 @@ class HttpClientTest {
     /*private HttpClient httpClient;: Объект клиента, который будет тестироваться.*/
 /*3.Метод setUp:*/
     /*Аннотация @BeforeEach указывает, что этот метод будет выполняться перед каждым тестом. Инициализирует объект HttpClient.*/
+/*4.Метод testGet:*/
