@@ -28,3 +28,4 @@ class RepositoryTest {
         assertEquals("NewName", repository.getName());
     }
 }
+/*1.Импорт:*/
