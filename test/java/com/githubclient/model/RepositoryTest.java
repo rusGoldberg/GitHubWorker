@@ -34,3 +34,4 @@ class RepositoryTest {
     /*private Repository repository;: Объект модели, который будет тестироваться.*/
 /*3.Метод setUp:*/
     /*Аннотация @BeforeEach указывает, что этот метод будет выполняться перед каждым тестом. Инициализирует объект Repository.*/
+/*4.Метод testGetters:*/
