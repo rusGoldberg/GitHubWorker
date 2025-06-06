@@ -104,3 +104,4 @@ public class GitHubService {
     }
 }
 /*1.Пакет и импорт:*/
+    /*package com.githubclient.services;: Указывает, что этот класс находится в пакете com.githubclient.services.*/
