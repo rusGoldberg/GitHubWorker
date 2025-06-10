@@ -114,3 +114,4 @@ public class GitHubService {
 /*4.Метод authenticate:*/
     /*public boolean authenticate(String username, String password): Метод для аутентификации пользователя. В реальном приложении здесь будет логика аутентификации через OAuth или другой метод.*/
 /*5.Метод getUserRepositories:*/
+    /*public List<Repository> getUserRepositories(): Метод для получения списка репозиториев пользователя. Выполняет GET-запрос к API GitHub и парсит JSON-ответ.*/
