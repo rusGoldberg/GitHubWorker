@@ -112,3 +112,4 @@ public class GitHubService {
 /*3.Конструктор:*/
     /*public GitHubService(Config config): Конструктор для создания нового объекта GitHubService с заданной конфигурацией.*/
 /*4.Метод authenticate:*/
+    /*public boolean authenticate(String username, String password): Метод для аутентификации пользователя. В реальном приложении здесь будет логика аутентификации через OAuth или другой метод.*/
