@@ -111,3 +111,4 @@ public class GitHubService {
     /*private Config config;: Конфигурация для доступа к API GitHub.*/
 /*3.Конструктор:*/
     /*public GitHubService(Config config): Конструктор для создания нового объекта GitHubService с заданной конфигурацией.*/
+/*4.Метод authenticate:*/
