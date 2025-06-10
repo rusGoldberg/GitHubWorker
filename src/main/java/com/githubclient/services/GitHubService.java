@@ -109,3 +109,4 @@ public class GitHubService {
 /*2.Поля класса:*/
     /*private HttpClient httpClient;: Объект для выполнения HTTP-запросов.*/
     /*private Config config;: Конфигурация для доступа к API GitHub.*/
+/*3.Конструктор:*/
