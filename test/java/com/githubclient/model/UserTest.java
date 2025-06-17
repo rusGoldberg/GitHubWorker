@@ -25,3 +25,4 @@ class UserTest {
         assertEquals("newUser", user.getUsername());
     }
 }
+/*1.Импорт:*/
